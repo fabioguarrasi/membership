@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/css/main.d0f93e74.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/js/main.2288902a.js",
+    "main.css": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/css/main.c62f32f7.css",
+    "main.js": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/js/main.8c60b7f2.js",
     "static/js/787.30587377.chunk.js": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/js/787.30587377.chunk.js",
-    "static/media/logo.svg": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/media/logo.82964387878db21074d8a6418f89fb4e.svg",
+    "static/media/logo.svg": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/media/logo.7e68d4802d88c6192d00191f6212910c.svg",
     "index.html": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/index.html",
-    "main.d0f93e74.css.map": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/css/main.d0f93e74.css.map",
-    "main.2288902a.js.map": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/js/main.2288902a.js.map",
+    "main.c62f32f7.css.map": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/css/main.c62f32f7.css.map",
+    "main.8c60b7f2.js.map": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/js/main.8c60b7f2.js.map",
     "787.30587377.chunk.js.map": "https://cdn.jsdelivr.net/gh/fabioguarrasi/membership/build/static/js/787.30587377.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0f93e74.css",
-    "static/js/main.2288902a.js"
+    "static/css/main.c62f32f7.css",
+    "static/js/main.8c60b7f2.js"
   ]
 }

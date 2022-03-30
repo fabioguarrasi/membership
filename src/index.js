@@ -1,10 +1,10 @@
 import React from 'react';
 import * as ReactDOMClient from 'react-dom/client';
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
-import App from './App';
-import Page2 from './Page2';
-import Page3 from './Page3';
+import Dashboard from './Dashboard';
+import Bookings from './Bookings';
+import Membership from './Membership';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('root');
@@ -15,9 +15,9 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/page-2" element={<Page2 />} />
-        <Route path="/page-3" element={<Page3 />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/bookings" element={<Bookings />} />
+        <Route path="/membership" element={<Membership />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
