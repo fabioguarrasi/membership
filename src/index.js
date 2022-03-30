@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactDOMClient from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Page2 from './Page2';
@@ -13,13 +13,13 @@ const root = ReactDOMClient.createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/v2" element={<App />} />
-        <Route path="/v2/page-2" element={<Page2 />} />
-        <Route path="/v2/page-3" element={<Page3 />} />
+        <Route path="/" element={<App />} />
+        <Route path="/page-2" element={<Page2 />} />
+        <Route path="/page-3" element={<Page3 />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
