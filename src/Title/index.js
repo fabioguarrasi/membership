@@ -1,6 +1,6 @@
-function Title() {
+function Title(props) {
     return (
-        <h2>This is a title in a custom component</h2>
+        <h2>{props.title}</h2>
     );
 }
 
