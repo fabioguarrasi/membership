@@ -15,9 +15,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/page-2" element={<Page2 />} />
-        <Route path="/page-3" element={<Page3 />} />
+        <Route path="/v2" element={<App />} />
+        <Route path="/v2/page-2" element={<Page2 />} />
+        <Route path="/v2/page-3" element={<Page3 />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
